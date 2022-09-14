@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <title>iCapito.it</title>
+        
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+        <link href="/old/css/fontello.css" rel="stylesheet" type="text/css">
+        <link href="/old/css/theme.css" rel="stylesheet" type="text/css">
+        <link href="/old/css/uat.blog.css" rel="stylesheet" type="text/css">
+        <link href="/old/css/uat-theme.css" rel="stylesheet" type="text/css">
+
+        <script src="/old/js/jquery-3.6.0.min.js" type="text/javascript"></script>
+        <script src="/old/js/showdown.min.js" type="text/javascript"></script>
+        <script src="/old/js/uat.blog.js" type="text/javascript"></script>
+
+        <!-- DISABLE CACHE -->
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <!-- FINE -->
+
+    </head>
+    <body onload="startup()" onhashchange="startup()">
+        <div id="cookies">
+            <span id="cookiemsg">
+                Questo sito utilizza cookie di prime e terze parti per fornirti un'esperienza di utilizzo grandiosa, 
+                per misurare gli audience e mostrarti pubblicità personalizzate. Usufruendo di iCapito.it accetti l'utilizzo 
+                di cookie da parte nostra. Per ulteriori informazioni sui cookie e su come gestirli, consulta i nostri <a href="/pages/cookie">termini sui cookie</a>.
+            </span>
+            <span id="cookieclose"><a href="#" onclick="acceptCookie()">X</a></span>
+        </div>
+        <div id="desktop" class="header">
+            <a id="backtohome" href="#">iCapito.it</a>
+            &nbsp; | &nbsp; <a href="/old/pages/software">Software</a>
+            &nbsp; | &nbsp; <a href="/old/pages/guide">Guide</a>
+            &nbsp; | &nbsp; <a href="/old/pages/about">About me</a>
+            &nbsp; | &nbsp; <a href="/db/feed-rss.xml">RSS Feed</a>
+            <span id="cookielink"> &nbsp; | &nbsp; <a href="/old/pages/cookie">Cookie policy</a></span>
+        </div>
+        <div class="container espanso">
+            <div id="main" class="main">
+                <div id="mobile" class="headermobile">
+                    <div id="menudinamico" class="bottone" onclick="showHideMenu(this);">
+                        <div class="barra"></div>
+                        <div class="barra"></div>
+                        <div class="barra"></div>
+                        <div class="barrax barrah"></div>
+                        <div class="barrax barrahi"></div>
+                    </div>
+                    <ul id="mobilemenu">
+                        <li class="bottone"><a class="bottone" id="backtohomemobile" href="#">Home</a></li>
+                        <li class="bottone"><a class="bottone" href="/old/pages/software">Software</a></li>
+                        <li class="bottone"><a class="bottone" href="/old/pages/guide">Guide</a></li>
+                        <li class="bottone"><a class="bottone" href="/old/pages/about">About me</a></li>
+                        <li class="bottone"><a class="bottone" href="/db/feed-rss.xml">RSS Feed</a></li>
+                        <li class="bottone" id="cookielinkmobile"><a class="bottone" href="/old/pages/cookie">Cookie policy</a></li>
+                    </ul>
+                </div>
+                <div id="list">
+                    <div class="articlelist">
+                        <div class="article title">{{title}}</div>
+                        <div class="article description">{{description}}</div>
+                        <div class="article readmore"><a href="{{readmore}}">read more</a></div>
+                    </div>
+                </div>
+                <div id="home">
+                    <div class="page title">{{title}}</div>
+                    <div class="page content">{{content}}</div>
+                </div>
+                <div id="page">
+                    <div class="page title">{{title}}</div>
+                    <div class="page content">{{content}}</div>
+                </div>
+                <div id="article">
+                    <div class="article title">{{title}}</div>
+                    <div class="article description">{{description}}</div>
+                    <div class="article content">{{content}}</div>
+                    <!--
+                    <div class="article tag">{{tag}}</div>
+                    <div class="article category">{{category}}</div>
+                    -->
+                    <div id="disqus_thread"></div>
+                </div>
+            </div>
+        </div>
+	    <div class="footer">
+            <p id="copynow">&copy; 2010 - {{datenow}} Black_Codec All Rights Reserved </p>
+            <p id="infocookie">Questo sito non utilizza cookies di nessun genere.</p>
+            <div class="social">
+                <!-- <a href="#"><i class="icon-facebook-squared"></i></a>
+                <a href="#"><i class="icon-twitter-squared"></i></a> -->
+                <a target="_blank" href="https://www.linkedin.com/in/fabio-dell-orso"><i class="icon-linkedin-squared"></i></a>
+                <a target="_blank" href="https://github.com/BlackCodec"><i class="icon-github-squared"></i></a>
+                <!-- <a href="#"><i class="icon-mail-alt"></i></a> -->
+            </div>
+        </div>
+        
+    
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+    </body>
+</html>

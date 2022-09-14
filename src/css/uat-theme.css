@@ -1,0 +1,52 @@
+body {
+    background-color: #22313F;
+    color: #22313F;
+}
+
+pre > code {
+    color: #63AA9C;
+    background-color: #34495E;
+    overflow-x: auto;
+}
+pre {
+    background-color: #34495E !important;
+    overflow-x: auto;
+}
+.header, #cookies {
+    background-color: #22313F;
+    color: #fafafa;
+    padding-top:10px
+}
+
+.header a {
+    color: #63aa9c;
+}
+.header a:hover {
+    background-color: #63aa9c;
+    color: #22313F;
+}
+
+.footer {
+    background-color: #22313F;
+    padding-top:0px;
+}
+
+.container {
+    background-color:#fafafa;
+    border:2px solid #fafafa;
+    border-radius:5px;
+}
+
+.title p {
+    color: #63aa9c;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h3 {
+    color: #63AA9C;
+}
+
+.container a {
+    color: #63aa9c;
+}

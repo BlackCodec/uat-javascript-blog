@@ -1,0 +1,62 @@
+#infocookie {
+    font-weight: bold;
+}
+
+#cookielink, #cookielinkmobile, #mobile, #article, #page,#home, #list, #cookies, #mobilemenu {
+    display:none;
+}
+
+.title {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.espanso {
+    max-width: 90%;
+}
+
+.bottone {
+    display: block;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.bottone a {
+    display: inline-block;
+    border: 3px solid #63aa9c;
+    border-radius: 5px;
+    color: white !important;
+    background-color: #63aa9c;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+      
+.barra {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+      
+.barrax {
+    display: none;
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+.barrah {
+    -webkit-transform: rotate(-45deg) translate(-8px, 8px);
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+.barrahi {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}

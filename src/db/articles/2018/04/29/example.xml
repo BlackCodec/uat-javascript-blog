@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object>
+    <type>article</type>
+    <article>
+        <title>Example</title>
+        <description><![CDATA[
+Example article with read more.
+        ]]></description>
+        <content>
+            <![CDATA[
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet, orci id faucibus vestibulum, ligula tortor cursus metus, ut consectetur felis nunc eget elit. Praesent eleifend est vitae magna ultricies ornare. Sed porttitor tristique eleifend. In hac habitasse platea dictumst. Phasellus lectus ipsum, luctus tempor magna in, cursus cursus augue. Morbi id lacus non sapien vehicula placerat ultrices ut enim. Aliquam vel congue urna, maximus pellentesque est. Ut urna ligula, placerat vitae egestas in, mattis at elit. Proin luctus velit vitae mauris faucibus malesuada et id metus. Donec ornare hendrerit mi.
+```
+Nam id venenatis orci. Curabitur eu mi tortor. Ut semper orci nisl, et vestibulum orci dignissim in. Integer porttitor sollicitudin ligula at bibendum. Integer scelerisque rhoncus feugiat. Aenean vestibulum enim nec metus malesuada tincidunt. Aliquam mollis tellus sit amet urna rutrum accumsan. Pellentesque rutrum ultricies urna sit amet ornare. Ut facilisis metus non felis consectetur aliquet. Proin nunc ligula, tincidunt et mi non, condimentum volutpat eros. Nam elementum nibh eget magna sodales dictum. Quisque turpis elit, varius in luctus a, malesuada eu leo. Aenean accumsan molestie mollis.
+```
+Sed aliquet augue eget ornare pretium. Maecenas aliquet purus ut feugiat cursus. Nulla facilisi. Maecenas posuere pretium ullamcorper. Nullam eu aliquam lacus. Nunc euismod bibendum pharetra. Pellentesque a velit commodo, tristique risus quis, mattis quam. Phasellus sed porta sem. Aenean blandit condimentum neque, in tristique orci congue sit amet. Suspendisse aliquet ipsum mi, ac volutpat nulla semper a. Etiam blandit ullamcorper porta. Vestibulum consectetur porttitor ex sit amet porttitor. Aenean vel hendrerit nulla.
+
+Suspendisse **ac ante hendrerit**, sollicitudin diam nec, vestibulum mi. Ut rutrum nulla eu nisi tempus, quis sagittis leo maximus. Ut lacus orci, vestibulum quis libero dictum, efficitur euismod metus. Mauris vitae ante et mi tincidunt lacinia non in tellus. Ut eget risus malesuada, porta lacus in, tincidunt ipsum. Fusce commodo dolor in purus iaculis, id maximus risus imperdiet. Pellentesque pretium justo tempor lacus pulvinar, efficitur ornare libero pretium. In vel lectus a sem vestibulum porta.
+
+Nullam aliquet __lorem varius__ massa ultrices imperdiet. Proin ullamcorper facilisis leo in vulputate. Curabitur rhoncus arcu eu lacus dictum, in blandit mauris ultricies. In tincidunt, sem id pellentesque suscipit, erat augue lobortis eros, a tristique eros mauris ac ex. Maecenas ut elit iaculis, sodales libero vel, pulvinar leo. Nunc eget mattis massa, sit amet tincidunt nulla. Praesent commodo accumsan risus eu lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut non sagittis turpis. Suspendisse potenti. 
+            ]]>
+        </content>
+        <tag>example,article</tag>
+        <category>Example,Test,Lorem ipsum</category>
+    </article>
+</object>
+
+
