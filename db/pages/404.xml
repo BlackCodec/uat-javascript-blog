@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object>
+    <type>page</type>
+    <page>
+        <title>404 - OOOOPS</title>
+        <content>
+<![CDATA[
+Custom Error Page
+]]>
+        </content>
+    </page>
+</object>

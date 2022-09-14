@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object>
+    <type>page</type>
+    <page>
+        <title>Software</title>
+        <content>
+<![CDATA[
+- [Example]({{siteurl}}/articles/2018/04/29/example) - 29/04/2018 \n
+- [Example 1.1]({{siteurl}}/articles/2018/04/29/example) - 02/08/2011 \n
+- [Example 1.2]({{siteurl}}/articles/2018/04/29/example) - 02/11/2012 \n
+- [Example 2]({{siteurl}}/articles/2018/04/28/example-2) - 28/04/2018 \n
+- [Example 2.1]({{siteurl}}/articles/2018/04/28/example-2) - 02/08/2011 \n
+- [Example 1.2]({{siteurl}}/articles/2018/04/29/example) - 02/11/2012 \n
+\n\n
+]]>
+        </content>
+    </page>
+</object>

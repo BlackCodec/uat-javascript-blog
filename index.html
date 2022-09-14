@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <title>iCapito.it</title>
+        <script src="/js/uat.blog.js" type="text/javascript"></script>
+
+        <!-- DISABLE CACHE -->
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <!-- FINE -->
+
+    </head>
+    <body onload="bodyload()" onhashchange="bodyload()">
+	<div id="page-container">
+	        <div id="menu-container" onclick="showhide('menu-list')">
+        	    <ul id="menu-list" class="menu-list">
+	               <li id="backtohome" class="menu-entry"><a class="menu-record" href="/">iCapito.it</a></li>
+        	       <li class="menu-entry"><a class="menu-record" href="/pages/software">Software</a>
+	               <li class="menu-entry"><a class="menu-record" href="/pages/guide">Guide</a>
+        	       <li class="menu-entry"><a class="menu-record" href="/pages/about">About me</a>
+	               <li class="menu-entry"><a class="menu-record" href="/db/feed-rss.xml">RSS Feed</a>
+	            </ul>
+        	</div>
+	        <div id="content-container">
+        	    <div id="object-data">
+                	<div id="object-title">{{title}}</div>
+	                <div id="object-description">{{description}}</div>
+	                <div id="object-readmore"><a href="{{readmore}}">read more</a></div>
+	                <div id="object-content">{{content}}</div>
+	                <div id="object-tag">{{tag}}</div>
+	                <div id="object-category">{{category}}</div>
+	            </div>
+	        </div>
+		<div id="footer-container">
+			<p id="copynow">&copy; 2010 - {{datenow}} {{author}} All Rights Reserved </p>
+			<p id="infocookie">Questo sito non utilizza cookies di nessun genere.</p>
+			<div class="social">
+				<a target="_blank" href="https://www.linkedin.com/in/fabio-dell-orso"><i class="icon-linkedin-squared"></i></a>
+				<a target="_blank" href="https://github.com/BlackCodec"><i class="icon-github-squared"></i></a>
+			</div>
+		</div>
+        </div>
+    </body>
+</html>

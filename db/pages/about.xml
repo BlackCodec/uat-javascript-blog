@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object>
+    <type>page</type>
+    <page>
+        <title>Black_Codec</title>
+        <content>
+            <![CDATA[
+Check [my website](https://www.icapito.it) for more info about me. \n
+\n
+Check also [my git](https://github.com/BlackCodec/uat-javascript-blog).\n
+\n
+            ]]>
+        </content>
+    </page>
+</object>
