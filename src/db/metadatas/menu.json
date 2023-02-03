@@ -1,0 +1,4 @@
+{
+  "type":"raw",
+  "content":"<a id='backtohome' href='${site_url}'>${site_name}</a>&nbsp; | &nbsp; <a href='/lista'>Esempio lista</a> &nbsp; | &nbsp; <a href='/about'>About me</a> &nbsp; | &nbsp; <a href='/feed-rss.xml'>Esempio file diretto - Feed.xml</a>"
+}

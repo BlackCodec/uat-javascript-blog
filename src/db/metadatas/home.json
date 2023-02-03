@@ -1,0 +1,6 @@
+{
+  "title": "Site home page",
+  "template": "home",
+  "type":"markdown",
+  "content":"${file:home.txt}"
+}

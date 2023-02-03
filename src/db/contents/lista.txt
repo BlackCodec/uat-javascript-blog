@@ -1,0 +1,27 @@
+###${title}
+
+---
+
+Esempio di una lista:
+
+ - Elemento 1
+ - Elemento 2
+ - Elemento 3
+
+Un esempio di una lista con checkbox:
+  
+  [ ] Non finito
+
+  [ ] Altro non finito
+
+  [X] Finito
+
+  [ ] Da finire
+
+
+---
+
+Url:
+
+ - [Esempio con content] (${site_url}/articles/2018/04/28/example)
+ - [Esempio con file] (${site_url}/articles/2018/04/29/example)

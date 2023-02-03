@@ -1,0 +1,59 @@
+body {
+    background-color: whitesmoke;
+}
+
+.bottone {
+    display: block;
+    cursor: pointer;
+    font-family: serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.bottone a {
+    display: inline-block;
+    border: 1px solid #22313F;
+    border-radius: 5px;
+    color: whitesmoke !important;
+    background-color: #22313F;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -30px;
+    margin-right: 5px;
+    
+}
+      
+.barra {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+      
+.barrax {
+    display: none;
+    width: 50px;
+    height: 5px;
+    background-color: #333;
+    margin: 13px 0;
+    transition: 0.4s;
+}
+.barrah {
+    -webkit-transform: rotate(-45deg) translate(-13px, 13px);
+    transform: rotate(-45deg) translate(-13px, 13px);
+}
+.barrahi {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+#mobilemenu {
+    float: left;
+    z-index: 11;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 5px;
+}

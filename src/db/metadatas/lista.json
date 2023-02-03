@@ -1,0 +1,6 @@
+{
+  "title": "Esempio lista",
+  "template": "lista",
+  "type":"markdown",
+  "content":"${file:lista.txt}"
+}

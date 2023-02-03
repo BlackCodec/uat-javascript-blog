@@ -1,0 +1,20 @@
+<div id="content">
+    <div id="mobile" class="headermobile">
+        <div id="menudinamico" class="bottone" onclick="showHideMenu();">
+            <div class="barra"></div>
+            <div class="barra"></div>
+            <div class="barra"></div>
+            <div class="barrax barrah"></div>
+            <div class="barrax barrahi"></div>
+        </div>
+        <ul id="mobilemenu" style="display:none">
+            <li class="bottone"><a class="bottone" id="backtohomemobile" href="${site_url}">${site_name}</a></li>
+            <li class="bottone"><a class="bottone" href="/lista">Esempio lista</a></li>
+            <li class="bottone"><a class="bottone" href="/about">About me</a></li>
+            <li class="bottone"><a class="bottone" href="/feed-rss.xml">Esempio file diretto - Feed.xml</a></li>
+        </ul>
+    </div>
+    <div id="${object_id}">${content}</div>
+    <hr>
+    <div id="footer">Copyright Black_Codec 2000-${year}</div>
+</div>

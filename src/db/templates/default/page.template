@@ -1,0 +1,6 @@
+<div id="content">
+    <div id="menu">${include:menu}</div><hr>
+    <div id="${object_id}">${content}</div>
+    <hr>
+    <div id="footer">UAT Blog engine release ${release}<br>Copyright Black_Codec 2000-${year}</div>
+</div>

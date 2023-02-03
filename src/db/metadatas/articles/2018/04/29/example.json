@@ -1,0 +1,6 @@
+{
+  "title": "Esempio articolo",
+  "template": "article",
+  "type":"markdown",
+  "content":"${file:article/article-example.txt}"
+}
